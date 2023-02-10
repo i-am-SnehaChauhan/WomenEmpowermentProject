@@ -9,7 +9,10 @@ import Contact from "./pages/Contact"
 import OurStore from "./pages/OurStore";
 
 
+
 // import SingleBlog from "./pages/SingleBlog";
+
+import SingleBlog from "./pages/SingleBlog";
 
 
 import Wishlist from "./pages/Wishlist";
@@ -35,6 +38,7 @@ function App() {
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
 
+
             <Route path="product" element={<OurStore />} />
             <Route path="product/:id" element={<SingleProduct />} />
             {/* <Route path="blogs" element={<Blog />} /> */}
@@ -53,6 +57,7 @@ function App() {
             <Route path="term-conditions" element={<TermAndCondition />} />
 
             <Route path="blog/:id" element={<SingleBlog />} />
+
 
           </Route>
         </Routes>
