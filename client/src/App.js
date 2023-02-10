@@ -5,8 +5,12 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
+
 import OurStore from "./pages/OurStore";
 import Blog from "./pages/Blog";
+
+import SingleBlog from "./pages/SingleBlog";
+
 
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
@@ -30,6 +34,7 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
+
             <Route path="product" element={<OurStore />} />
             <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blogs" element={<Blog />} />
@@ -46,6 +51,9 @@ function App() {
             <Route path="refund-policy" element={<RefundPloicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
             <Route path="term-conditions" element={<TermAndContions />} />
+
+            <Route path="blog/:id" element={<SingleBlog />} />
+
           </Route>
         </Routes>
       </BrowserRouter>
