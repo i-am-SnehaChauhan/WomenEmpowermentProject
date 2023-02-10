@@ -7,9 +7,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact"
 
 import OurStore from "./pages/OurStore";
-import Blog from "./pages/Blog";
 
-import SingleBlog from "./pages/SingleBlog";
+
+// import SingleBlog from "./pages/SingleBlog";
 
 
 import Wishlist from "./pages/Wishlist";
@@ -19,9 +19,9 @@ import Signup from "./pages/Signup";
 import Resetpassword from "./pages/Resetpassword";
 import SingleBlog from "./pages/SingleBlog";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import RefundPloicy from "./pages/RefundPloicy";
+import RefundPolicy from "./pages/RefundPolicy";
 import ShippingPolicy from "./pages/ShippingPolicy";
-import TermAndContions from "./pages/TermAndContions";
+import TermAndCondition from "./pages/TermAndCondition";
 import SingleProduct from "./pages/SingleProduct";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
@@ -37,7 +37,7 @@ function App() {
 
             <Route path="product" element={<OurStore />} />
             <Route path="product/:id" element={<SingleProduct />} />
-            <Route path="blogs" element={<Blog />} />
+            {/* <Route path="blogs" element={<Blog />} /> */}
             <Route path="blog/:id" element={<SingleBlog />} />
             <Route path="cart" element={<Cart />} />
             <Route path="checkout" element={<Checkout />} />
@@ -48,9 +48,9 @@ function App() {
             <Route path="signup" element={<Signup />} />
             <Route path="reset-password" element={<Resetpassword />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="refund-policy" element={<RefundPloicy />} />
+            <Route path="refund-policy" element={<RefundPolicy />} />
             <Route path="shipping-policy" element={<ShippingPolicy />} />
-            <Route path="term-conditions" element={<TermAndContions />} />
+            <Route path="term-conditions" element={<TermAndCondition />} />
 
             <Route path="blog/:id" element={<SingleBlog />} />
 
