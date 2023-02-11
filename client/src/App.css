@@ -475,7 +475,7 @@ footer .input-group-text {
 .contact-inner-wrapper {
   padding: 30px 20px;
   border-radius: 15px;
-  background-color: white;
+  background-color: #F3CCFF;
   gap: 15px;
 }
 .contact-inner-wrapper > div {
@@ -499,7 +499,7 @@ footer .input-group-text {
 .contact-inner-wrapper address,
 .contact-inner-wrapper a,
 .contact-inner-wrapper p {
-  color: var(--color-777777);
+  color: var(--color-181823);
 }
 /* Contact Page ends */
 
