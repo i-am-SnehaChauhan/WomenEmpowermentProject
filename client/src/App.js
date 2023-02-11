@@ -12,7 +12,6 @@ import OurStore from "./pages/OurStore";
 
 // import SingleBlog from "./pages/SingleBlog";
 
-import SingleBlog from "./pages/SingleBlog";
 
 
 import Wishlist from "./pages/Wishlist";
