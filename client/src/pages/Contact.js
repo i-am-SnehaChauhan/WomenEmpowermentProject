@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+import React from 'react'
+
+const Contact = () => {
+  return (
+    <div>Contact</div>
+  )
+}
+
+=======
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
@@ -100,4 +110,5 @@ const Contact = () => {
   );
 };
 
+>>>>>>> b79289aaffeb20d219e1e30fe2ef664352493a03
 export default Contact;
